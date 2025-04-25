@@ -8,4 +8,4 @@ Entity::Entity(const std::string& texturePath)
 		return;
 	}
 	sprite.emplace(texture, rect);
-}
+}//
