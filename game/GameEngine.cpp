@@ -14,6 +14,9 @@ void GameEngine::run()
             if (event->is<sf::Event::Closed>())
                 gameWindow.close();
         }
+
+        testPlayerMechanics();
+
         gameWindow.clear(sf::Color::Green);
         gameWindow.display();
     }

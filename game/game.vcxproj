@@ -140,8 +140,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Character.hpp" />
+    <ClInclude Include="Enemy.hpp" />
+    <ClInclude Include="Test.hpp" />
     <ClInclude Include="Entity.hpp" />
     <ClInclude Include="GameEngine.hpp" />
+    <ClInclude Include="Player.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
